@@ -1,0 +1,42 @@
+#main{
+    height: 300px;
+    width: 300px;
+}
+input[type="text"]{
+    height: 100px;
+    width: 320px;
+    font-size: large;
+    border: none;
+}
+input[type="button"]{
+    size: 2em;
+    border:none;
+    font-size: 1.5em;
+}
+table{
+    background-color: rgb(220, 20, 53);
+}
+#result{
+    background-color:chartreuse;
+}
+.op{
+    background-color:rgb(255, 221, 0);
+}
+.but{
+    background-color: rgb(131, 225, 131);
+}
+.cl{
+    background-color: rgb(151, 87, 241);
+}
+input[id="display"]{
+    background-color: rgb(220, 20, 53);
+    color: rgb(4, 4, 4);
+    font-size: 2em;
+}
+body{
+    background-color:darkolivegreen;
+}
+h1{
+    color:rgb(234, 254, 199);
+    padding-left: 80px;
+}

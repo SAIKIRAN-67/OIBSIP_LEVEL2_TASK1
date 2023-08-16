@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator_style.css">
+</head>
+<body>
+    <center>
+        <h1>CALCULATOR</h1>
+        <div id="main">
+        <div id="res" >
+            <table>
+                <tr>
+                    <td><input id="display" type="text" ></td>
+                    <td><input class="cl" type="button" value="AC"onclick="clr()"></td>
+                    <td><input class="cl" type="button" value="DEL" onclick="back()"></td>
+                </tr>
+            </table>
+        </div>
+        <table border="4" cellspacing=25 cellpadding="25">
+            <tr>
+                <td><input class="but" type="button" value="1" onclick="cal('1')"></td>
+                <td><input class="but" type="button" value="2" onclick="cal('2')"></td>
+                <td><input class="but" type="button" value="3" onclick="cal('3')"></td>
+                <td><input class="op" type="button" value="+" onclick="cal('+')"></td>
+            </tr>
+            <tr>
+                <td><input class="but" type="button" value="4" onclick="cal('4')"></td>
+                <td><input class="but" type="button" value="5" onclick="cal('5')"></td>
+                <td><input class="but" type="button" value="6" onclick="cal('6')"></td>
+                <td><input class="op" type="button" value="-" onclick="cal('-')"></td>
+            </tr>
+            <tr>
+                <td><input class="but" type="button" value="7" onclick="cal('7')"></td>
+                <td><input class="but" type="button" value="8" onclick="cal('8')"></td>
+                <td><input class="but" type="button" value="9" onclick="cal('9')"></td>
+                <td><input class="op" type="button" value="*" onclick="cal('*')"></td>
+            </tr>
+            <tr>
+                <td><input class="but" type="button" value="."onclick="cal('.')"></td>
+                <td><input class="but" type="button" value="0" onclick="cal('0')"></td>
+                <td><input class="op" type="button" value="/" onclick="cal('/')"></td>
+                <td><input id="result" type="button" value="=" onclick="res()"></td>
+            </tr>
+        </table>
+    </div>
+    </center>
+    <script src="calculator.js"></script>
+</body>
+</html>
